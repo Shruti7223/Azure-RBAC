@@ -1,0 +1,7 @@
+b) Using Azure PowerShell
+
+Assign a role:
+New-AzRoleAssignment -SignInName user@example.com -RoleDefinitionName "Reader" -Scope "/subscriptions/{subscription-id}"
+
+Remove a role assignment:
+Remove-AzRoleAssignment -SignInName user@example.com -RoleDefinitionName "Reader"
