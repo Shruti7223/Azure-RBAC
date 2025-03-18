@@ -1,0 +1,7 @@
+c) Using Azure CLI
+
+Assign a role:
+az role assignment create --assignee user@example.com --role "Reader" --scope "/subscriptions/{subscription-id}"
+
+Remove a role:
+az role assignment delete --assignee user@example.com --role "Reader"
