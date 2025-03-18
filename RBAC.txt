@@ -1,0 +1,8 @@
+a) Using Azure Portal
+1)Go to the Azure portal – https://portal.azure.com
+2)Navigate to the resource (Subscription, Resource Group, or specific resource).
+3)Go to Access Control (IAM).
+4)Click + Add > Add role assignment.
+5)Choose a role (e.g., Contributor, Reader).
+6)Select a user, group, or service principal.
+7)Click Save.
